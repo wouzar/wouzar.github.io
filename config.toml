@@ -1,0 +1,34 @@
+baseURL = "https://wouzar.github.io/"
+languageCode = "en-us"
+title = "Viktor Moskvych"
+theme = "ananke"
+
+SectionPagesMenu = "main"
+Paginate = 3
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/wouzar"
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/wouzar"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/viktor-moskvych-26660a128/"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/juniperphoton-E0bj4Q53_Dw-unsplash.jpg"
+  recent_posts_number = 2
