@@ -1,0 +1,11 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+    </a>
+    <div style="color: white;">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" style='color: white;'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+  </a>
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>
